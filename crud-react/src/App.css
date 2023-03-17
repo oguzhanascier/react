@@ -1,0 +1,52 @@
+h2{
+display: flex;
+justify-content: center;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    width: 320px;
+    margin: 10px;
+    box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.305);
+    border-radius: 20px;
+}
+
+.course{
+    width: 230px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+.price{
+    font-weight: 600;
+}
+
+
+.buttonLi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    
+}
