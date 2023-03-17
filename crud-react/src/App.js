@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       {loading ? (<Loading />) :
         <>
-          {courses.length === 0 ? (<div className='re'><button className='reload'>Kurs Yükle</button> </div>) : (<Courses courses={courses} removeCourse={deleteCourse} />)}
+          {courses.length === 0 ? (<div className='re'><button className='reload' onClick={()=> { fetchCourses()}}>Kurs Yükle</button> </div>) : (<Courses courses={courses} removeCourse={deleteCourse} />)}
         </>
       }
 
