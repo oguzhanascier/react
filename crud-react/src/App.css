@@ -50,3 +50,23 @@ justify-content: center;
     font-weight: 600;
     
 }
+
+
+.re{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reload{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #663399;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
