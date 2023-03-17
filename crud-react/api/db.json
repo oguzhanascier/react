@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.",
+      "title": "Milky",
+      "price": 999
+    },
+    {
+      "id": 2,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.",
+      "title": "Andromeda ",
+      "price": 339
+    },
+    {
+      "id": 3,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.",
+      "title": "Tucana",
+      "price": 919
+    },
+    {
+      "id": 4,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore mollitia ab, necessitatibus doloremque nisi dolor, voluptate at itaque aperiam magni temporibus rem expedita.",
+      "title": "Dorado",
+      "price": 59
+    }
+  ]
+}
