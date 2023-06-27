@@ -1,7 +1,10 @@
 import React from 'react'
 
 function Tods({ items }) {
+
+
   const deleteItems = (id) => {
+    console.log(id)
     items.filter(item => item.id !== id)
   }
 
