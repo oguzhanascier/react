@@ -1,12 +1,11 @@
 import { Table, Collapse } from 'antd';
 import { useState } from 'react';
 
-const { Panel } = Collapse;
 
 const data = [
   {
     key: '1',
-    a: 'Veli',
+    a: 'Ali',
     b: 'Konya',
     c: 23,
     d: 'Developer',
@@ -18,16 +17,8 @@ const data = [
         z: 20000,
         w: 'Cengiz',
       },
-      {
-        key: '2',
-        x: 'Azeybaycan',
-        y: 'Denizli',
-        z: 20000,
-        w: 'Cengiz',
-      },
     ],
   },
-  // Diğer veri öğeleri...
 ];
 
 const columns = [
@@ -53,7 +44,7 @@ const columns = [
   },
 ];
 
-const App = () => {
+const AccordionTable = () => {
   const [activeKey, setActiveKey] = useState(null);
 
   const handlePanelChange = (panelKey) => {
@@ -68,12 +59,7 @@ const App = () => {
       expandable={{
         expandedRowRender: (record) => (
           <Collapse>
-            <Panel
-              showArrow={false}
-              header="Additional Details"
-              key={record.key}
-              onChange={() => handlePanelChange(record.key)}
-            >
+           
               <Table
                 dataSource={record.details}
                 columns={[
@@ -84,7 +70,6 @@ const App = () => {
                 ]}
                 pagination={false}
               />
-            </Panel>
           </Collapse>
         ),
       }}
@@ -92,4 +77,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AccordionTable;
